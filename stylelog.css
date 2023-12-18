@@ -1,0 +1,62 @@
+* {
+    font-family: 'Consolas';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://usagif.com/wp-content/uploads/gif/outerspace-38.gif");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    height: 20rem;
+    width: 30%;
+    padding: 20px;
+    gap: 2rem;
+    position: absolute;
+    top: 25%;
+    color: white;
+}
+
+h1 {
+    font-size: 47px;
+}
+
+input {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 12px;
+    width: 75%;
+    font-size: 15px;
+}
+
+button {
+    width: 80%;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: rgb(35, 35, 35);
+}
+
+button:active {
+    transform: translateY(2.5px);
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="styleP.css">
+</head>
+
+<body>
+    <div id="home">
+        <div class="bg">
+            <nav>
+                <h2>JM</h2>
+                <ul>
+                    <li><a onclick="window.location.replace('#home')">Home</a></li>
+                    <li><a onclick="window.location.replace('#aboutme')">About Me</a></li>
+                    <li><a onclick="window.open('calcu.html')">Calculator</a></li>
+                    <li><a onclick="window.location.replace('#gallery')">My Gallery </a></li>
+                    <li><a onclick="window.location.replace('logpage.html')">Log out</a></li>
+                   
+                </ul>
+            </nav>
+            <div class="home">
+                <h1>Hello!, My Name Is John Michael R. Pardillo</h1>
+                <h2>I'm Willing to learn more</h2>
+            </div>
+            <section class="personal-info" id="aboutme">
+                <div class="section1">
+                    <img src="https://scontent.fceb3-1.fna.fbcdn.net/v/t39.30808-6/367445806_1734287200328280_325299659591221693_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=bd92f5&_nc_eui2=AeFdw6aleCiw-_0znjyVUWbu7WaIRVNxUsjtZohFU3FSyPcaIgyHcJIbDJVwMpS22L01M9uZsjixRPrT-0eY_nLZ&_nc_ohc=85IVmK6DWEkAX_Z2HAY&_nc_ht=scontent.fceb3-1.fna&oh=00_AfCL5hLMZN3iKIvZHo4gaaKRkXcQ5_1UFmVZaLTEM4fG_Q&oe=65831378"
+                        onclick="fpage()">
+                    <div class="info">
+                        <h1>About Me</h1>
+                        <p>HI! My name is John Michael R. Pardillo, Im 19 years old ,Currently living at Datag Cordova Cebu.
+                            And Im Currently studying at Cordova Public college taking the course of BSIT .Still learning day by day to prove 
+                        that i suit in this course and Im like playing basketball  </p>
+                    </div>
+                </div>
+            </section>
+            <section id="gallery">         
+                    <h1>My Gallery</h1>    
+                    <div class="pics">
+                        <img src="https://scontent.fceb1-2.fna.fbcdn.net/v/t1.15752-9/398435670_380558874336704_1849763366174677041_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGMRFcVvmfSjeTGCNfQNAVFssAStedqRRGywBK152pFEdflmz3efQwfc-rDNoy0JokLmKAFbmEwDF2efMMP_hWZ&_nc_ohc=lxGRUZraCW8AX8C8sHq&_nc_ht=scontent.fceb1-2.fna&oh=03_AdQ8JLTMrfgF4DxugmzHXPuArLZcenZAPXkF2wgRthZuzw&oe=65A6C56E">
+                        <img src="https://scontent.fceb1-1.fna.fbcdn.net/v/t1.15752-9/403612339_1418735415378416_2864407836374171956_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeG1V9pKNsGd_yAzWDdgEjTHaYhBNChvgOlpiEE0KG-A6Y7gcEs5fFxKMO_25wryqA9VkuQEvqgXb29vbTW1qV9j&_nc_ohc=q0UEkXOMB5QAX-0h_B0&_nc_oc=AQlmjWk1UTlYus8i4oj94N5HyCUX4grn0l4_Ztlc0n1Iy9m2pHqbrLnN-eVHkjnycWQ&_nc_ht=scontent.fceb1-1.fna&oh=03_AdSNoE96bdpCdUhoGzSXm0N1mF8yik8mFGpX45jtgbTNRQ&oe=65A6BEA8">
+                        <img src="https://scontent.fceb1-2.fna.fbcdn.net/v/t1.15752-9/403424527_893865309405536_1333607873143963688_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGDsgG4egO7dznqCSQlO1KLkijgpoYnIhKSKOCmhiciErmGxXBZg1o588Bfw3HyvjIQaTyD9Fo5k95NbkP_lt4Y&_nc_ohc=AB5A-Ur2vqoAX-Z47hO&_nc_ht=scontent.fceb1-2.fna&oh=03_AdRe-Yoo9tAxFAIRV4iZqCJ9FePw38ZnMLn1q7izTNu6SQ&oe=65A6AE96">
+                        <img src="https://scontent.fceb1-1.fna.fbcdn.net/v/t1.15752-9/370305479_211913341997405_3542640915564492774_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGDn9-0hmm0wrVgheN9oiZuBKjFSOZXbAoEqMVI5ldsChWMRqfo5L6qo-Mo6LeYXy49Fjk2kmkDkzXmNB37t-d9&_nc_ohc=POaoQ2j6viYAX9cOj8N&_nc_ht=scontent.fceb1-1.fna&oh=03_AdRuYvLnXJo7pPVW6qmF3lF_EA17SO311yJNpmDO8XX5OQ&oe=65A6CB3E">
+                    </div>   
+                    <video controls loop>
+                        <source src="song.mp4">
+                    </video>
+            </section>
+        </div>
+    </div>
+    <script>
+        function fpage() {
+            const url = 'ttps://www.facebook.com/kingjohn159';
+            window.open(url);
+        }
+    </script>
+</body>
+
+</html>

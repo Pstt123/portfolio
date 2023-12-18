@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Consolas';
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://i.pinimg.com/originals/bf/fe/de/bffede1d81ebe6ddb2eb3033dc86ac68.gif');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+p {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 60px;
+    height: 150px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(42, 150, 212);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    width: auto;
+    position: absolute;
+    padding: 20px;
+    color: black;
+    gap: 1.5rem;
+    top: 20%;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 7rem);
+    grid-template-rows: repeat(5, 5rem);
+
+}
+button {
+    font-size: large;
+    width: 90px;
+    border-radius: 20px;
+    margin: 5%;
+}
+.num {
+    background-color: #ffffff;
+}
+.operation {
+    background-color: rgb(27, 221, 247);
+}
+.c, .delete {
+    background-color: rgb(83, 206, 255);
+}
