@@ -1,16 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Consolas';
+    font-family: 'Verdana', sans-serif;
     scroll-behavior: smooth;
 }
 
 body {
-    background-image: url("https://bestanimations.com/media/galaxy/352503095galaxy-space-animation.gif");
+    background-image: url("https://images6.alphacoders.com/133/1332843.png");
     background-repeat: no-repeat;
-    background-position: top;
-    background-size: 100%;
-    width: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
 .bg {
@@ -18,7 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    backdrop-filter: brightness(1);
+    backdrop-filter: brightness(0.8);
 }
 
 .home {
@@ -26,12 +25,11 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 300px;
+    margin: 280px;
     margin-left: 0;
     margin-right: 0;
     font-size: 150%;
     color: white;
-    text-shadow: 5px 5px 15px black, -5px -5px 15px black;
 }
 
 nav {
@@ -42,17 +40,13 @@ nav {
     width: 100%;
     padding: 10px 0 10px 0;
     position: sticky;
-    background-color: rgb(255, 255, 255, 0.5);
 }
 
 nav h2 {
     font-size: 27px;
     margin-left: 10px;
     padding: 15px;
-    color: black;
-    letter-spacing: 1.5px;
-    border: 3px solid black;
-    border-radius: 50%;
+    color: white;
 }
 
 nav ul li {
@@ -64,7 +58,7 @@ nav ul li {
 
 nav ul li a {
     font-size: 20px;
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 8px;
     letter-spacing: 1.5px;
@@ -72,10 +66,7 @@ nav ul li a {
 .personal-info {
     width: 100%;
     padding: 150px 0;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url("https://cdn.dribbble.com/userupload/6460069/file/original-85d1a934ebd18a896eb850bbd7baedf6.gif");
+    background-color: #6637a3;
 }
 
 .personal-info img {
@@ -83,7 +74,6 @@ nav ul li a {
     width: 360px;
     border-radius: 50%;
     cursor: pointer;
-    box-shadow: 3px 3px 10px rgb(255, 102, 0), -3px -3px 10px rgb(255, 102, 0);
 }
 
 .section1 {
@@ -112,29 +102,12 @@ nav ul li a {
     line-height: 28px;
     font-size: 21px;
 }
-
-.projects {
-    background-image: url("https://i.pinimg.com/originals/ee/ba/a8/eebaa8f48cd69d0bdbecf8d0dad5bbe2.gif");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    padding: 400px 0;
-}
-
-.section2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: orangered;
-}
-
 #gallery {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdXB3azYyMDk2Mjg0LXdpa2ltZWRpYS1pbWFnZS1rb3dnb2Q3bC5qcGc.jpg");
+    background-image: url("https://images6.alphacoders.com/133/1332845.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -149,12 +122,18 @@ nav ul li a {
 }
 .pics {
     display: grid;
-    grid-template-columns: repeat(2, 23rem);
-    grid-template-rows: repeat(2, 23rem);
+    grid-template-columns: repeat(2, 20rem);
+    grid-template-rows: repeat(2, 20rem);
 }
 .pics img {
+    border: 5px solid rgb(255, 255, 255, 0.5);
     margin: auto;
     border-radius: 15px;
     width: 17rem;
     height: 17rem;
+}
+video {
+    border: 5px solid rgb(255, 255, 255, 0.5);
+    width: 590px;
+    border-radius: 15px;
 }

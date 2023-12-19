@@ -9,7 +9,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('https://i.pinimg.com/originals/bf/fe/de/bffede1d81ebe6ddb2eb3033dc86ac68.gif');
+    background-image: url('https://images6.alphacoders.com/133/1332846.png');
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -26,7 +26,7 @@ p {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(42, 150, 212);
+    background-color: rgb(105, 100, 133, 0.7);
     border: 2px solid rgb(255, 255, 255);
     border-radius: 15px;
     width: auto;
@@ -63,8 +63,8 @@ button {
     background-color: #ffffff;
 }
 .operation {
-    background-color: rgb(27, 221, 247);
+    background-color: rgb(185, 173, 253);
 }
 .c, .delete {
-    background-color: rgb(83, 206, 255);
+    background-color: rgb(156, 150, 194);
 }
